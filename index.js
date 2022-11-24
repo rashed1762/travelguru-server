@@ -215,6 +215,9 @@ run().catch(console.dir);
 
 
 
+app.get('/hero', (req, res) => {
+  res.send('Hello hero!')
+})
 
 
 app.get('/', (req, res) => {
